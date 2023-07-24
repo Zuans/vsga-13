@@ -1,0 +1,52 @@
+#table-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffc26f;
+  margin-bottom: 10px;
+}
+
+.form-group input[type="text"],
+.form-group textarea,
+.form-group input[type="number"] {
+  width: 100%;
+  max-width: 500px;
+  padding: 7px 15px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+.form-group.radio input[type="radio"] {
+  margin-right: 5px;
+  margin-left: 15px;
+}
+
+.form-group.radio input[type="radio"]:first-of-type {
+  margin-left: 0;
+}
+
+.btn-submit {
+  padding: 0.5rem 1.5rem;
+  font-weight: 700;
+  font-size: 24px;
+  border-radius: 15px;
+  color: white;
+  background-color: #af6d5a;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #c17f6d;
+}

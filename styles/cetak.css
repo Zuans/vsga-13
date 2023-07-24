@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+h3 {
+  text-align: center;
+  padding: 45px;
+  color: #884a39;
+}
+
+.tampil-wrapper {
+  margin: 0 auto;
+}
+
+.gambar-user {
+  width: 70px;
+}
+
+.head th,
+.user-info td {
+  text-align: center;
+  padding: 40px;
+}
+
+.head {
+  color: white;
+  background-color: #af6d5a;
+  border-radius: 10px;
+}
+
+.user-info:nth-child(even),
+.user-info:nth-child(odd) {
+  color: white;
+  border-radius: 10px;
+}
+
+.user-info:nth-child(even) {
+  background-color: #ffc26f;
+}
+
+.user-info:nth-child(odd) {
+  background-color: #c38154;
+}
