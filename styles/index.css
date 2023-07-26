@@ -1,8 +1,8 @@
-colors {
-  color: #ffc26f;
-  color: #c38154;
-  color: #af6d5a;
-  color: #884a39;
+:root {
+  --main-color: #7c73c0;
+  --secondary-color: #94add7;
+  --third-color: #acfadf;
+  --light-color: #acfadf;
 }
 
 * {
@@ -12,84 +12,9 @@ colors {
   font-family: "Poppins", sans-serif;
 }
 
-body {
-  position: relative;
-  width: 100%;
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: hidden;
-  min-height: 100vh;
-}
-
-body nav {
-  flex: 1;
-  background-color: #c38154;
-  padding: 20px;
-  color: white;
-}
-
-body nav .user-info,
-body nav .nav-group {
-  margin: 20px 0;
-}
-
-body nav .nav-title {
-  margin-bottom: 10px;
-}
-
-body nav .nav-item {
-  color: white;
-  text-decoration: none;
-  display: block;
-  margin-bottom: 5px;
-}
-
-body nav .nav-item:hover,
-body nav .nav-item.active {
-  font-weight: 600;
-  color: #ffc26f;
-}
-
-body main {
-  flex: 3;
-  background-color: #884a39;
-  flex-basis: 75%;
-}
-
-body main {
-  color: white;
-}
-
-body main header {
-  padding: 10px 50px;
-  background-color: #af6d5a;
-}
-
-body main header .alamat {
-  margin-top: 5px;
-}
-
-body main .main-wrapper {
-  padding: 0 50px;
-  margin-top: 60px;
-}
-
-body main .breadcrumb {
-  padding: 10px;
-  background-color: #ffc26f;
-  margin-bottom: 30px;
-  border-radius: 10px;
-}
-
-.greet {
-  margin-bottom: 45px;
-}
-
-body footer {
-  background-color: #ffc26f;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  margin-top: 30px;
+.form-wrapper {
+  background-color: var(--main-color);
+  color: var(--light-color);
+  padding: 40px;
+  border-radius: 15px;
 }
